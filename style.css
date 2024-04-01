@@ -1,0 +1,90 @@
+/* transition property with ease in timimg functiion  */
+.trans1{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    
+}
+
+.trans1:hover{
+    background-color: red;
+    transform: rotateZ(90deg);
+}
+/* long hand transition property with timing function ease out and rotate x */
+.trans2{
+    background-color: firebrick;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: 100px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-property: transform;
+    transition-duration: 2000ms;
+    transition-timing-function: ease-out;
+    transition-delay: 0ms;
+}
+
+.trans2:hover{
+    background-color: sandybrown;
+    transform: rotateX(45deg);
+}
+
+/* long hand transition property with timimg function ease-in-out */
+.trans3{
+    background-color: darkcyan;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-property: transform;
+    transition-duration: 3000ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1200ms;
+}
+
+.trans3:hover{
+    transform: rotateY(90deg);
+}
+
+/* shorthand transition propery  with linear*/
+.trans4{
+    background-color: lawngreen;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 3000ms linear 1200ms;
+}
+
+.trans4:hover{
+    background-color: green;
+    transform: rotateZ(45deg);
+}
